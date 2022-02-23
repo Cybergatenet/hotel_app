@@ -1,0 +1,142 @@
+{
+    "recreation":[
+        {
+            "img": "./images/./gym-page.jpg",
+            "title": "Gym",
+            "text": "Our gym house is well equipped with modern gyming facilities that can help you keep your self phsically fit."
+        },
+        {
+            "img": "./images/volleyball-court-page.jpg",
+            "title": "Volly ball court",
+            "text": "We have one of the best volley ball court amonsgt other hotels"
+        },
+        {
+            "img": "./images/swimming-pool.jpg",
+            "title": "Tennis",
+            "text": "Our rooms are decorated to provide maximum comfort and relaxation."
+        }
+
+    ],
+
+    "eventCenter":[
+        {
+            "eventTitle": "Part Hall",
+            "img": "./images/eventcenter.jpg"
+        },
+        {
+            "eventTitle": "Grand Ball Event Center",
+            "img": "./images/grand-ballroom.jpg"
+        },
+        {
+            "eventTitle": "Detol Meeting Room",
+            "img": "./images/meeting-room.jpg"
+        }
+    ],
+
+    "testimonial":[
+        {
+            "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout.",
+            "name": "C. Hart",
+            "occupation": "BUSINESS MAN",
+            "img": "./images/user2.jpg"
+        },
+        {
+            "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout.",
+            "name": "Tim Abell",
+            "occupation": "BANK MANAGER",
+            "img": "./images/user1.jpg"
+        },
+        {
+            "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at it's layout.",
+            "name": "Maria Henry",
+            "occupation": "MARKETING EXECUTIVE",
+            "img": "./images/image-emily.jpg"
+        }
+        
+    ],
+
+    "aboutComponent":[
+        {
+            "text": "Dektol hotel is the most peffered hotel in West Africa. It is located in the heart of victoria island. Dektol Hotel is just a 10-minute drive to the City Center and ony 45minutes away from the airport. Our hotel is designed for your comfort and convinence. Your security is our primary concern and you will find our customer care second to none. Our hotel has taken important steps to live up West Africa's future model in the hospitality sector, With the best Conference and Banqueting facilities, tastefully funished to 7000-seater capacity, a world-class swimming pool, with 824 Excellently funished rooms. The hotel is equipped with a state of art health and fitness comprising of a gym, a tennis/basket ball court and a Volly ball court. we have an in-house medical clinic as well. We host best themed buffet every friday were we serve specialities across the globe",
+            "text2": "We are passionate about serving you and looking forward to having you.",
+            "text3": "Welcome to Dektol Hotel",
+            "img": "./images/meeting-room.jpg",
+            "mission1": "we aspire to be the leading and preffered hotel in west Africa.",
+            "mission2": "We are commited to exceeding guest's expectations",
+            "mission3": "We are care to deliver genuine care, cormfort and warmth to all our guests.",
+            "mission4": "We are constantly adapting to an ever-changing world."
+        }
+    ],
+
+    "dinningComponent":[
+        {
+            "img": "./images/lagoon-breeze.jpg",
+            "title": "Lagoon Breeze Resturant",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim quam sapiente voluptatum culpa numquam? Non optio ratione laudantium corrupti nobis minus hic alias. Nihil eligendi reiciendis nemo, saepe voluptas sint exercitationem repellat similique laudantium, molestias voluptate ut dolore nesciunt hic maiores tenetur magni vel! Alias sunt nihil cum rerum!"
+        },
+        {
+            "img": "./images/lagos-irish-pub.jpg",
+            "title": "Wooden Resturant",
+            "text": "Our wooden resturant is completely made up of wooden mateirals, and it's a nice place to visit. it's a perfect place for after work drink, hanging out with friends and also watching live"
+        },
+        {
+            "img": "./images/red-chinese-restaurant.jpg",
+            "title": "Red Resturant",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim quam sapiente voluptatum culpa numquam? Non optio ratione laudantium corrupti nobis minus hic alias. Nihil eligendi reiciendis nemo, saepe voluptas sint exercitationem repellat similique laudantium, molestias voluptate ut dolore nesciunt hic maiores tenetur magni vel! Alias sunt nihil cum rerum!"
+        },
+        {
+            "img": "./images/lagos-irish-pub.jpg",
+            "title": "Bush Bar",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim quam sapiente voluptatum culpa numquam? Non optio ratione laudantium corrupti nobis minus hic alias. Nihil eligendi reiciendis nemo, saepe voluptas sint exercitationem repellat similique laudantium, molestias voluptate ut dolore nesciunt hic maiores tenetur magni vel! Alias sunt nihil cum rerum!"
+        }
+    ],
+    
+    "eventComponent":[
+        {
+            "img": "./images/grand-ballroom.jpg",
+            "title": "Grand ball Event Center",
+            "text": "For your banqueting needs, our Grand Ball Event Center which sits up to 300 people for dinner is ideal and comes equipped with visual and audio equipment."
+        },
+        {
+            "img": "./images/lagoon-breeze.jpg",
+            "title": "Dektol Convention Center",
+            "text": "The Dektol Convention Center is the largest multipurpose conference; banquet and exhibition center in Nigeria, with maximum floor space of 5,151 square metres."
+        },
+        {
+            "img": "./images/meeting-room.jpg" ,
+            "title": "Meeting Room",
+            "text": "At Dektol Hotel, we can accommodate meetings of up to 2,500 people and provide all the necessary assistance in terms of your technology requirements."
+        },
+        {
+            "img": "./images/eventcenter.jpg",
+            "title": "Party Hall",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim quam sapiente voluptatum culpa numquam? Non optio ratione laudantium corrupti nobis minus hic alias. Nihil eligendi reiciendis nemo, saepe voluptas sint exercitationem repellat similique laudantium, molestias voluptate ut dolore nesciunt hic maiores tenetur magni vel! Alias sunt nihil cum rerum!"
+        }
+    ],
+
+    "avaliableRooms":[
+        {
+            "img": "./images/Rm1.jpg",
+            "price": "N100,000",
+            "plan": "Silver Plan",
+            "benefitOne": "Resturant Lunch",
+            "benefitTwo": "Airport pick-up",
+            "benefitThree": "Sport activities"
+        },
+        {
+            "img": "./images/Rm2.jpg",
+            "price": "N50,000",
+            "plan": "Golden Plan",
+            "benefitOne": "Resturant Lunch",
+            "benefitTwo": "Sport activities"
+        },
+        {
+            "img": "./images/Rm1.jpg",
+            "price": "N25,000",
+            "plan": "Diamond Plan",
+            "benefitOne": "Resturant Lunch"
+        }
+    ]
+
+
+}

@@ -1,0 +1,406 @@
+</div>
+</header>
+<!-- Banner -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eko Management System</title>
+    <!-- <link rel="stylesheet" href="./css/fontawesome-free-5.13.0-web/css/all.css"> -->
+    <!-- <link rel="stylesheet" href="./fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.css"> -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="./css/fullView.css"> -->
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+    <!------------------- Nav bar ------------------>
+    <header class="pt-2 mybg" id="header">
+        <!-- Location Container Start  -->
+        <div class="content first-footer mx-auto d-flex justify-content-between">
+            <p class="p-font text-white">
+                <i class="fa fa-envelope"></i> &nbsp;hartjust553@gmail.com 
+                <span class="p-5">
+                    <i class="fa fa-location-arrow"></i> &nbsp; Location
+                </span>
+            </p>
+            <!-- Social Media Icon Container  -->
+            <p class="p-font text-white">
+                <i class="fa fa-facebook m-2"></i>
+                <i class="fa fa-twitter m-2"></i>
+                <i class="fa fa-linkedin m-2"></i>
+                <i class="fa fa-google m-2"></i>
+            </p>
+        </div>
+        <!-- Location Container End -->
+        <div class="content nav-box d-flex align-items-center justify-content-between bg-white py-lg-3 px-5">
+            <div class="brand-name">
+                <img class="img-fluid" src="./images/EkoHotelLogo.png" alt="Logo">
+            </div>
+            <ul class="menu d-flex align-items-center pt-2 justify-content-center mt-3">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item" onclick="displayDinningCenter()"><a href="#dinning-full-view" class="nav-link">Dektol Dinning</a></li>
+                <li class="nav-item"><a href="#event-full-view" class="nav-link" onclick="displayEventCenter()">Meeting & Events</a></li>
+
+                <li class="nav-item" onclick="displayHomePage()"><a href="#testimonial" class="nav-link">Testimonial</a></li>
+                <li class="nav-item" onclick="displayHomePage()"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-item booking-btn btn-bg" onclick="booking()"><a href="#booking" class="nav-link  py-3 px-5 text-white">Make Order</a></button>
+            <div class="toggle" >
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="full-web" id="full-web">
+        <!---------------- Banner section -------------->
+        <section class="banner pt-5 pb-1">
+            <div class="content d-flex justify-content-center flex-column align-items-start py-5 my-5">
+                <h1 class="text-font">The Best Hotel Modern <br> Style And Certified</h1>
+                <!-- Order Btn  -->
+                <button class="btn-bg py-4 px-5 mt-5 text-white" onclick="booking()"><a href="#booking">Make Order &nbsp; <i class="fa fa-arrow-right"></i></a></button>
+            </div>
+            <!-- Favourite Rooms -->
+            <div class="favourite-container py-5">
+                <div class="favourite my-3 p-lg-5 d-lg-flex justify-content-between align-items-center">
+                    <!-- Guest Favourite Room  -->
+                    <div class="d-lg-flex align-items-center">
+                        <i class="fa fa-bed fa-5x text-white py-5"></i>
+                        <span class="p-5">
+                            <div class="text-font h4 text-white mb-2">Guest Favourite Room</div>
+                            <p class="p-font text-white mybg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi consequuntur ullam error ad velit?</p>
+                        </span>
+                    </div>
+
+                    <span class="styled-break"></span>
+
+                    <!-- Hotel Booking  -->
+                    <div class="d-lg-flex align-items-center">
+                        <i class="fa fa-book fa-5x text-white py-5"></i>
+                        <span class="p-5">
+                            <div class="text-font h4 text-white mb-2">Hotel Booking</div>
+                            <p class="p-font text-white mybg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ducimus a, ab dolor exercitationem velit?</p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------------- About Container --------------->
+        <section class="about py-5 our-service">
+            <div class="content py-5 my-shadow px-lg-0 px-3">
+                
+                <div class="position-relative">
+                    <div class="transition position-relative">
+
+                        <p class="h5 blueColor text-center">About Us</p>
+                        <div class="text-font h2 goldenColor my-3 text-center">Welcome to <span class="blueColor"> Dektol</span> Hotel and <span class="blueColor">Suite</span></div>
+
+                        <div class="px-lg-5">
+                            <p class="p-font text-center pColor">Dektol hotel and suite is the most peffered hotel in West Africa. It is located in the heart of victoria island. Dektol Hotel is just a 10-minute drive to the City Center and ony 45minutes away from the airport. Our hotel is designed for your comfort and convinence.</p>
+                        </div>
+                        <!-- About Btn  -->
+                        <div class="d-flex justify-content-center">
+                            <button class="btn-bg py-4 px-5 mt-5" onclick="displayAboutFullView()"><a href="#about-full-view">Reed more &nbsp; <i class="fa fa-arrow-right"></i></a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!----------------- Dektol Recreational Center ------------->
+        <section class="py-5">
+            <div class="content py-5 my-shadow px-lg-0 px-3">
+                <h2 class="text-font text-center mt-5"><span class="goldenColor">Dektol </span>Recreational Centers</h2>
+                <div class="px-lg-1 mb-5">
+                    <p class="p-font text-center pColor">Our in-house guests have free access to any recreational center of their choice.</p>
+                </div>
+                <div class="event-center row  gy-5 my-5" id="recreation">
+                </div>
+            </div>
+        </section>
+
+
+        <!------------------ Our services ------------------->
+        <section class="our-service py-5">
+            <div class="our-services content my-shadow py-5 px-lg-0 px-3">
+                <h1 class="goldenColor text-font text-center">Our <span class="text-font">Best</span> services</h1>
+                <div class="px-lg- mx-auto">
+                    <p class="p-font text-center pColor">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, <br> velit. Cum veritatis quidem, eveniet incidunt praesentium adipisci esse omnis.</p>
+                </div>
+                <!-- Services  -->
+                <div class="services py-5 ">
+                    <div class="service-col row text-center d-lg-flex justify-content-center pt-5 bg-dark1">
+                        <h4 class="col-lg-3 bg-white py-5 mx-lg-1 text-font goldenColor shadow-md">Dektol Dinning</h4>
+
+                        <h4 class="col-lg-4 bg-white py-5 mx-lg-1 text-font goldenColor shadow-md">Meeting & Events</h4>
+
+                        <h4 class="col-lg-3 bg-white py-5 mx-lg-1 text-font goldenColor shadow-md">Rcreational Services</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!----------------- Dektol Meeting and Event Center ------------->
+        <section class="py-5">
+            <div class="content py-5 my-shadow px-lg-0 px-3">
+                <h2 class="text-font text-center"><span class="goldenColor">Dektol Meeting </span>& Event Center</h1>
+                <div class="px-lg-1 mb-5">
+                    <p class="p-font text-center pColor">Dektol event centers are funished to your taste.</p>
+                </div>
+                <!-- fetching data from json file  -->
+                <div class="event-center row  gy-5 my-5" id="event"></div>
+            </div>
+        </section>
+
+        <!----------------- Testimonial -------------------------->
+        <section class="py-5" id="testimonial">
+            <div class="testimonial content my-shadow px-lg-0 px-3 py-5">
+                <p class="h5 blueColor text-center my-4">Hotel Brand</p>
+                <h1 class="goldenColor text-font text-center mb-5">Our <span class="text-font">Testimonial</span></h1>
+                <!-- fetching data from htmlContent.json file  -->
+                <div class="row g-5 pt-5" id="testify"></div>
+            </div>
+        </section>
+
+        <!----------------- Contact ------------------------>
+        <section class="py-5" id="contact">
+            <div class="contact content py-5 my-shadow px-lg-0 px-3">
+                
+                <h1 class="text-font text-center m1-5 pt-5">Our <span class="goldenColor">Contact</span></h1>
+                <p class="p-font text-center pColor">You can send us a message or get to us through the following details below.</p>
+
+                <div class="contact-col d-flex flex-column align-items-center">
+                    <!-- Form input  -->
+                    <form class="input-group py-5 d-flex flex-column align-items-center">
+                        <div class="input-container w-50 position-relative mt-5">
+                            <input class="form-control border py-4 p-font pColor px-5" type="text" placeholder="Full Name">
+                            <i class="fa fa-user position-absolute p-font pColor"></i>
+                        </div>
+
+                        <div class="input-container w-50 position-relative mt-5">
+                            <input class="form-control border py-4 p-font pColor px-5" type="text" placeholder="Email">
+                            <i class="fa fa-envelope position-absolute p-font pColor"></i>
+                        </div>
+
+                        <div class="input-container w-50 position-relative mt-5">
+                            <textarea class="form-control border py-4 p-font pColor px-5" type="text" placeholder="Leave Your Message"></textarea>
+                        </div>
+
+                        <div class="btn btn-lg w-50 py-4 mt-5 p-font btn-bg">SEND</div>
+                    </form>
+
+                    <!-- Hotel Address  -->
+                    <div class="address border p-5 mt-5">
+                        <h4 class="goldenColor text-start mb-5 text-font">Hotel Address</h6>
+                        <span class="row d-lg-flex align-items-center justify-content-between">
+                            <!-- Location  -->
+                            <div class="location col-md d-lg-flex align-items-center">
+                                <i class="fa fa-location-arrow fa-4x pColor mx-5"></i>
+                                <div>
+                                    <p class="p-font pColor">2416 Mapleview</p>
+                                    <p class="p-font pColor">No 23, Melrose street</p>
+                                </div>
+                            </div>
+                            <!-- Telephone -->
+                            <div class="telephone col-md d-lg-flex align-items-center p-5">
+                                <i class="fa fa-phone fa-4x pColor mx-5"></i>
+                                <div>
+                                    <p class="p-font pColor">+ 645 128 456</p>
+                                    <p class="p-font pColor">+ 235 829 764</p>
+                                </div>
+                            </div>
+                            <!-- Email -->
+                            <div class="email col-md d-lg-flex align-items-center">
+                                <i class="fa fa-envelope fa-2x pColor mx-3"></i>
+                                &nbsp;
+                                <div>
+                                    <p class="p-font pColor">hartjust553@gmail.com</p>
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!---------------------- About FullView -------------------->
+    <section class="about-full-view py-5 px-lg-5 hidden" id="about-full-view">
+        <!-- <h2>Wecome to Dektol Hotel</h2> -->
+        <div class="content our-service py-5">
+            <!-- Dektol Event Container -->
+            <div class="dinning-category1 d-flex flex-column py-5 px-lg-5 mt-5" id="whoWeAre">
+                <h2 class="text-font text-center tex-dark pt-5 my-5">About Dektol Hotel</h2>
+                <!-- fetching data from htmlContent.json file  -->
+            </div>
+        </div>
+    </section>
+    
+    <!--------------------- Booking section  ------------------->
+    <section class="booking py-5 hidden" id="booking">
+        <div class="content d-flex justify-content-center shadow-lg mx-auto py-2 border">
+            <ul class="d-flex">
+                <li class="nav-item  mx-1" onclick="BookRoom()"><a href="#room-container" class="nav-link p-font text-white p-lg-3 p-21 goldenColor">Apartment</a></li>
+
+                <li class="nav-item shadow-lg1 mx-1" onclick="orderFood()"><a href="#order-food" class="nav-link p-font text-white p-lg-3 p-21 goldenColor">Pastry Menu</a></li>
+            </ul>
+        </div>
+        <div class="content our-service shadow-lg my-5 border py-5">
+            <!-- Apartment Booking  -->
+            <div class="room-container py-5 d-none1" id="room-container">
+                <h3 class="category text-font text-center pt-5">Categories</h3>
+                <div class="rooms row pt-5 mt-5" id="avaliable-rooms">
+                    <!-- fetching data from json file  -->
+                </div>
+            </div>
+            
+            <!-- Pastry Menu  -->
+            <div class="pastry-menu hidden" id="pastry-menu">
+                <div class="pastry-content">
+                    <div class="p-5" id="pastry-items">
+                        <span class="mybg">
+                            <h4 class="blueColor text-font my-5">Dektol Pastry Menu</h4>
+                        </span>
+                        <div class="pastry">
+                            <h5 class="text-dark">Brownies -------------- N2,500</h5>
+                            <h5 class="text-dark">Sliced Bread -------------- N1,500</h5>
+                            <h5 class="text-dark">Cheese Bread -------------- N1,500</h5>
+                            <h5 class="text-dark">Multicereal Sliced Bread -------------- N1,500</h5>
+                            <div class="btn-bg btn my-2 pastry-btn">
+                                <div class="h5">Order</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pastry Menu  -->
+                    <div class="p-5">
+                        <span class="mybg">
+                            <h4 class="blueColor text-font my-5">Dektol Pastry Menu</h4>
+                        </span>
+                        <div class="pastry">
+                            <h5 class="text-dark">Burger Bun -------------- N1,000</h5>
+                            <h5 class="text-dark">Toasted Bread -------------- N1,000</h5>
+                            <h5 class="text-dark">Panini Bread -------------- N1,000</h5>
+                            <div class="btn-bg btn my-2 pastry-btn">
+                                <div class="h5">Order</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pastry Menu  -->
+                    <div class="p-5">
+                        <span class="mybg">
+                            <h4 class="blueColor text-font my-5">Dektol Pastry Menu</h4>
+                        </span>
+                        <div class="pastry">
+                            <h5 class="text-dark">Cheese Burger -------------- N7,000</h5>
+                            <h5 class="text-dark">Pizza -------------- N7,000</h5>
+                            <div class="btn-bg btn my-2 pastry-btn">
+                                <div class="h5">Order</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Booking Form -->
+            <form class="booking-form input-group py-5 d-flex flex-column align-items-center" id="booking-form">
+                <div class="input-container w-50 position-relative mt-5">
+                    <input class="form-control border py-4 p-font pColor px-5" type="text" placeholder="Full Name" id="fullName">
+                    <i class="fa fa-user position-absolute p-font pColor"></i>
+                </div>
+    
+                <div class="input-container w-50 position-relative mt-5">
+                    <input class="form-control border py-4 p-font pColor px-5" type="text" placeholder="Email" id="email">
+                    <i class="fa fa-envelope position-absolute p-font pColor"></i>
+                </div>
+                <div class="input-container w-50 position-relative mt-5">
+                    <input class="form-control border py-4 p-font pColor px-5" type="text" placeholder="Address" id="address">
+                    <i class="fa fa-location-arrow position-absolute p-font pColor"></i>
+                </div>
+    
+                <div class="input-container w-50 position-relative mt-5">
+                    <textarea class="form-control border py-4 p-font pColor px-5" type="text" placeholder="Product Name" id="productName"></textarea>
+                </div>
+    
+                <div class="btn btn-lg w-50 py-4 mt-5 p-font btn-bg" onclick="validateBookingForm()">SEND</div>
+            </form>
+
+            <!------------------- Success msg ------------------->
+            <div class="successMsg hidden fixed" id="header">
+                <div class="content">
+                    <div class="content border p-5">
+                        <p class="p-font">Dear <span class="userName text-font"></span>, your request have been received is been processed please keep checking your mail. Thanks for petronising us!</p>
+                        <p class="ok text-center p-font"a href="#booking">OK</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <img src= alt=""> -->
+        
+    </section>
+
+    <!---------------------- Dektol Dinning Component Fullview --------------->
+    <section class="event-full-view py-5 px-lg-5 transition hidden" id="dinning-full-view">
+        <div class="content our-service py-5">
+            <h2 class="text-font text-center">Dektol Dinning</h2>
+            <!-- Dektol Event Container -->
+            <div class="dinning-category d-flex flex-column py-5 px-lg-5" id="dinning">
+                <!-- fetching data from htmlContent.json file  -->
+            </div>
+        </div>
+    </section>
+    
+
+    <!------------------- Dektol Event Component  FullView ------------------->
+    <section class="event-full-view py-5 px-lg-5 transition hidden" id="event-full-view">
+        <div class="content our-service py-5">
+            <h2 class="text-font text-center">Dektol Event Centers</h2>
+            <!-- Dektol Event Container -->
+            <div class="dinning-category d-flex flex-column py-5 px-lg-5" id="event-component">
+                <!-- fetching data from htmlContent.json file -->
+            </div>
+        </div>
+    </section>
+
+    <!-------------------- Footer  --------------------->
+    <footer class="py-5 darkBg">
+        <div class="content py-5">
+            <div class="footer-content d-lg-flex justify-content-between align-items-center">
+                <!-- Footer Logo  -->
+                <img src="./images/EkoHotelLogo.png" alt="Logo">
+                <!-- Footer Links -->
+                <div class="footer-links d-lg-flex">
+                    <li class="nav-item"><a href="#index.html" class="nav-link p-font">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link p-font">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link p-font">Contact</a></li>
+                </div>
+                <!-- Language option  -->
+                <div class="language py-3 px-5">
+                    <p class="p-font mt-3 px-5">English</p>
+                </div>
+            </div>
+            <!-- Social link  -->
+            <div class="social d-flex align-items-center justify-content-center bg-white1 w-50 mx-auto pt-5">
+                <i class="fa fa-facebook-square fa-3x"></i>
+                <i class="fa fa-twitter-square fa-3x mx-5"></i>
+                <i class="fa fa-instagram fa-3x"></i>
+            </div>
+            <hr class="my-5">
+            <p class="p-font text-center">
+                @ Dektol Hotel, Designed By C . Hart
+            </p>
+        </div>
+    </footer>
+
+    <script src="./script/pageUpdate.js"></script>
+    <script src="./script/index.js"></script>
+</body>
+</html>

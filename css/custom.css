@@ -1,0 +1,608 @@
+:root {
+    --thm-font: "Cardo", serif;
+    --thm-b-font: "Open Sans", sans-serif;
+    --thm-hero-font: "Cormorant Infant", serif;
+    --thm-hero-color: #326079;
+    --thm-font-display: 70px;
+    --thm-base: #326079;
+    --thm-base-hover: #1b495e;
+    --thm-base-rgb: 50, 96, 121;
+    --thm-base-hue: #84a6b9;
+    --thm-secondary: #b6af3d;
+    --thm-secondary-hover: #877f1e;
+    --thm-secondary-rgb: 182, 175, 61;
+    --thm-tertiary: #7553f2;
+    --thm-tertiary-hover: #4224b1;
+    --thm-tertiary-rgb: 117, 83, 242;
+    --thm-tertiary-hue: #e2dbff;
+    --thm-b-text: #686a6f;
+    --thm-b-text-rgb: 104, 106, 111;
+    --thm-border: #e1e1e1;
+    --thm-border-rgb: 225, 225, 225;
+    --thm-form-input-bg: #f4f5f8;
+    --thm-section-bg: #fff;
+    --thm-section-bg-light: #353530;
+    --thm-nav-text: #333;
+    --thm-nav-bg: #000;
+    --thm-nav-top-bg: #fff;
+    --thm-nav-middle-bg: #fff;
+    --thm-nav-bottom-bg: #fff;
+    --thm-mobile-nav-bg: #fff;
+    --thm-footer-bg: #222429;
+    --thm-footer-bg-rgb: 34, 36, 41;
+    --thm-footer-bg-light: #f7f7f7;
+    --thm-footer-text: #999b9f;
+    --thm-footer-secondary: #1c1e22;
+    --thm-bg-gray: #f8f8f8;
+}
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13,110,253;
+    --bs-secondary-rgb: 108,117,125;
+    --bs-success-rgb: 25,135,84;
+    --bs-info-rgb: 13,202,240;
+    --bs-warning-rgb: 255,193,7;
+    --bs-danger-rgb: 220,53,69;
+    --bs-light-rgb: 248,249,250;
+    --bs-dark-rgb: 33,37,41;
+    --bs-white-rgb: 255,255,255;
+    --bs-black-rgb: 0,0,0;
+    --bs-body-color-rgb: 33,37,41;
+    --bs-body-bg-rgb: 255,255,255;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+}
+
+:root{
+    --thm-b-text: #686a6f;
+    --thm-tertiary-hue: #e2dbff;
+    --bs-light: #f8f9fa;
+    --thm-form-input-bg: #f4f5f8;
+    --thm-footer-bg: #222429;
+    --thm-footer-text: #999b9f;
+    --thm-footer-bg-rgb: 34, 36, 41;
+    --thm-base-hover: #1b495e;
+    --thm-secondary: #b6af3d;
+    --thm-secondary-hover: #877f1e;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background: var(--thm-section-bg);
+    font-family: var( --bs-font-sans-serif);
+}
+
+/* ########## P tag styling start ########## */
+.p-font{
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+}
+
+.pColor{
+    color: var(--thm-b-text);
+}
+
+/* ########## BTN styling ########### */
+.btn-bg{
+    font-size: 1.3rem;
+    background: var(--thm-base);
+    color: var(--thm-section-bg);
+}
+
+.btn-bg:hover{
+    background: var(--thm-base-hove);
+}
+
+.btn-bg a{
+    color: var(--thm-section-bg);
+    text-decoration: none;
+}
+
+.btn-bg:hover a{
+    color: var(--thm-b-text)!important;
+}
+
+/* ######## Dark Blue color ######## */
+.blueColor{
+    color: var(--thm-base);
+}
+
+/* Golden color  */
+.goldenColor{
+    color: var(--thm-secondary)!important;
+}
+
+/* ######## Dark bg ####### */
+.darkBg{
+    background: var(--thm-footer-bg);
+}
+
+.transition{
+    transition: 0.3s;
+}
+
+/* ######### Genaeral Content container Styling ######## */
+.content{
+    width: 80%;
+    margin: auto;
+}
+
+/* ############# General Favourite container styling ############ */
+.favourite {
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 5rem 2rem!important;
+    border-top: 10px solid #fff;
+}
+
+/* ############ .styled-break styling ########### */
+.styled-break{
+    background: #fff;
+    border-radius: 5px;
+    width: 15%!important;
+    padding: 0.2rem!important;
+    transform: rotate(90deg);
+}
+
+.width{
+    width: 100%;
+}
+
+/* ########## Heading styling ########## */
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+header .content{
+    width: 80%;
+}
+
+header .links{
+    width: 50%!important;
+}
+
+li{
+    list-style: none!important;
+}
+
+header li a, .booking li a{
+    font-size: 1.8rem;
+    font-style: italic;
+    color: var(--thm-b-text)!important;
+    font-family: var(--thm-font);
+    position: relative!important;
+    margin-left: 1.5rem;
+}
+
+header li a:after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    left: 0rem;
+    margin: auto;
+    bottom: 0.3rem;
+    transition: 0.3s;
+    background: var(--thm-secondary-hover)!important;
+}
+
+header li a:hover:after{
+    width: 100%;
+}
+
+.toggle{
+    width: 35px;
+    height: 23px;
+    display: none;
+    cursor: pointer;
+    margin-top: 0.1rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line{
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+    background: var(--thm-base-hover);
+}
+/* ############ Header styling End  ############# */
+
+/* ############ Banner section styling ############## */
+.banner, .booking, .event-full-view, .booking-msg1{
+    padding-top: 15rem!important;
+}
+
+.banner{
+    width: 100%;
+    background: var(--thm-secondary);
+}
+
+.banner .favourite{
+    box-shadow: 0 0 0.1rem var(--thm-secondary-hover);
+}
+
+.text-font{
+    color: var(--thm-base);
+    font-family: var(--thm-font);
+    font-style: italic;
+    font-weight: 900!important;
+}
+/* ############# Banner section End  ############# */ 
+
+/* ############# Reused background ############# */ 
+.mybg{
+    background: var(--thm-secondary);
+}
+
+/* ############## Image Hover styling start  ############ */
+.img-content{
+    cursor: pointer;
+}
+
+.lay{
+    top: 0;
+    width: 100%!important;
+    height: 100%;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(136, 121, 121, 0.4));
+}
+
+.lay span{
+    top: 100%!important;
+}
+
+.lay:hover span{
+    top: 0!important;
+}
+
+.event-center .img-content:nth-child(1) .lay span{
+    top: 0!important;
+    left: -30rem;
+}
+
+.event-center .img-content:nth-child(1):hover .lay span{
+    left: 0;
+}
+
+.event-center .img-content:nth-child(3) .lay span{
+    top: 0!important;
+    right: -30rem;
+}
+
+.event-center .img-content:nth-child(3):hover .lay span{
+    right: 0;
+} 
+/* ############ Image Hover Styling End  ############ */
+
+
+
+
+
+
+
+/* ########### Service background ########## */
+.our-service{
+    background: var(--bs-light);
+}
+
+.service-col{
+    grid-gap: 2rem!important
+}
+
+.services{
+    cursor: pointer;
+}
+
+/* ############### Testimonial ############### */
+.testimonial .fa-quote-left{
+    color: var(--thm-tertiary-hue)!important;
+}
+
+.testimonial .img-circle{
+    width: 13rem;
+}
+
+.testimonial .img-circle img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.address{
+    width: 100%;
+}
+
+/* ########## Contact form styling Using multiple Selectors ######### */
+form .fa{
+    top: 34%;
+    right: 3rem;
+}
+
+/* ########## Text area styling ########### */
+form textarea{
+    resize: none;
+    height: 20vh;
+}
+
+/* ############ Form input background ########### */
+form .form-control{
+    background: var(--thm-form-input-bg);
+}
+
+form .btn{
+    z-index: 0!important ;
+}
+
+.form-option{
+    cursor: pointer;
+}
+
+
+/* ############ Footer styling ############## */
+footer .footer-content a, p, footer .fa, hr{
+    color: var(--thm-footer-text);
+}
+
+.language{
+    background: var(--thm-footer-bg-rgb);
+    border: 1px solid var(--thm-footer-text);
+}
+
+
+/* ############ Booking section styling ############ */
+.room-details .detail .plan{
+    background: var(--thm-base);
+}
+
+.room-container, .rooms, .food-order{
+    transition: 0.3s;
+}
+
+.pastry h5{
+    font-style: italic;
+    color: var(--thm-b-text)!important;
+}
+
+.pastry .btn{
+    font-style: italic!important;
+    width: 40%!important;
+}
+
+.btn:hover{
+    background: var(--thm-b-text)!important;
+}
+
+/* .booking-msg{
+    top: -10rem;
+    opacity: 0;
+    left: 10%;
+}
+
+.bookingActive{
+    top: 9rem;
+    opacity: 1;
+    transition: 0.3s;
+    position: fixed!important;
+}
+
+.closing-tab{
+    margin-left: 50rem;
+    cursor: pointer;
+    position: fixed!important;
+}
+ */
+
+.booking-form{
+    display: none!important;
+ }
+
+.form-active{
+    display: block!important;
+    left: 25%;
+ }
+
+.ok{
+    cursor: pointer;
+}
+
+
+.hidden{
+    display: none!important;
+}
+
+/* ############# About fullView styling ############ */
+/* .about-content{
+    width: 100%;
+    height: 50%!important;
+} *
+
+
+
+/* ########## Dektol Meeting and Event Center ########## */
+.img-hover img{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ###### Media Query for the navigation bar ###### */
+@media(max-width: 1678px){
+    /* ######### Header styling Start  ######### */
+    header .content{
+        width: 95%;
+        margin-top: -0.5rem;
+    }
+
+    .full-web .content{
+        width: 90%!important;
+        margin-top: -0.5rem;
+    }
+
+    .content{
+        width: 95%;
+        margin-top: -0.5rem;
+    }
+
+    .first-footer, .styled-break, .booking-btn{
+        display: none!important;
+    }
+
+    .nav-box{
+        padding: 2rem 4rem!important;
+    }
+
+    /* ######### Hamburger menu styling start ######### */ 
+    .toggle{
+        display: flex;
+    }
+
+    .menu{
+        top: 14%;
+        left: 2.5%;
+        width: 95%!important;
+        position: absolute;
+        flex-direction: column;
+        background: var(--thm-section-bg);
+        align-items: flex-start!important;
+        opacity: 0;
+        transition: 0.3s;
+        position: fixed;
+        z-index: 1;
+        display: none!important;
+        border: 1px solid var(--thm-secondary);
+    }
+
+    .menu li{
+        width: 100%;
+        border-bottom: 1px solid var(--thm-tertiary-hue);
+        transition: 0.3s;
+    }
+
+    .menu li:hover{
+        background: var(--thm-base-hover);
+    }
+
+    .active{
+        opacity: 1;
+        display: block!important;
+    }
+
+    .toggle.active .line:nth-child(2){
+        opacity: 0;
+    }
+
+    .toggle.active .line:nth-child(1){
+        transform: translateY(10px) rotate(45deg)
+    }
+
+    .toggle.active .line:nth-child(3){
+        transform: translateY(4px) rotate(-45deg)
+    }
+    /* ######### Header styling End ######### */
+
+    /* ########## Banner styling section ######### */
+    .banner{
+        padding-top: 10rem!important;
+    }
+
+    /* ####### Giving the input container width at smaller screen ####### */
+    form .input-container, .btn{
+        width: 100%!important;
+    }
+
+    /* Booking form stylng  */
+    .form-active{
+        width: 80%;
+        left: 0%;
+        margin: auto;
+     }
+
+    /* ################## Booking Msg Styling ################### */
+    .booking-msg{
+        left: 2.5%;
+    }
+
+
+    /* ######## Footer styling ######## */
+    footer .language{
+        padding: 5px!important;
+    }
+
+    footer .language p{
+        padding: 17px!important;
+    }
+
+}
+
+@media(max-width: 972px){
+    .my-shadow{
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075), 0 0 5px rgba(128, 189, 255, 0.5);
+    }
+}
