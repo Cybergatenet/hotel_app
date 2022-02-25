@@ -1,0 +1,21 @@
+{
+  "name": "deptol_hart",
+  "version": "1.0.0",
+  "description": "a nodejs practical application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cybergatenet"
+  },
+  "keywords": [
+    "nodejs",
+    "app",
+    "webapp",
+    "unit-test"
+  ],
+  "author": "Cybergate and Hart",
+  "license": "ISC"
+}
