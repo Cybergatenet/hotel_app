@@ -2,9 +2,10 @@
   "name": "deptol_hart",
   "version": "1.0.0",
   "description": "a nodejs practical application",
-  "main": "index.js",
+  "main": "./backend/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node /index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
